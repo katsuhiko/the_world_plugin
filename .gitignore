@@ -1,0 +1,36 @@
+.bundle/
+log/*.log
+pkg/
+spec/test_app/db/*.sqlite3
+spec/test_app/db/*.sqlite3-journal
+spec/test_app/log/*.log
+spec/test_app/tmp/
+spec/test_app/.sass-cache
+
+# scm revert files
+**.orig
+
+# Mac finder artifacts
+.DS_Store
+
+# Netbeans project directory
+/nbproject/
+
+# RubyMine project files
+.idea
+
+# Textmate project files
+/*.tmproj
+
+# vim artifacts
+**.swp
+
+# Environment files that may contain sensitive data
+.env
+.powenv
+
+# Vagrant files
+/.vagrant
+
+# Chef cookbooks
+/cookbooks
